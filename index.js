@@ -6,7 +6,7 @@ const jobRoutes = require("./route/job");
 const app = express();
 
 mongoose
-  .connect("mongodb://localhost:27017/job_app")
+  .connect("mongodb+srv://tejas9075674655:2ydXeSiZFrl04HGD@cluster0.qs02hoq.mongodb.net/")
   .then(() => console.log("DB Connected successfully"))
   .catch((err) => console.log("Error connecting database", err));
 
